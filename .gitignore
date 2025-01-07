@@ -1,0 +1,21 @@
+# Ambiente virtuale
+env/
+*.venv/
+__pycache__/
+*.pyc
+
+# File temporanei di sistema
+*.DS_Store
+*.log
+*.bak
+
+# Dati e file di output
+data/processed/
+notebooks/.ipynb_checkpoints/
+*.csv
+
+# Ignora tutti i file nella cartella notebooks/
+notebooks/*
+
+# Non ignorare la cartella notebooks stessa
+!notebooks/
